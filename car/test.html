@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" id="myInput">
+    <p id="myOutput"></p> -->
+    <!-- <script>
+        // Get a reference to the input field and the paragraph tag
+var input = document.getElementById("myInput");
+var output = document.getElementById("myOutput");
+
+// Add an onchange event listener to the input field
+input.addEventListener("keyup", function(event) {
+  // Create a new span element to hold the input value
+  var newSpan = document.createElement("span");
+
+  // Set the text of the span to the input value
+  newSpan.innerText = input.value;
+
+  // Add the new span to the paragraph tag
+  output.appendChild(newSpan);
+});
+
+    </script> -->
+    <input type="text" id="myInput">
+<p id="myOutput"></p>
+
+<script>
+  var input = document.getElementById("myInput");
+  var output = document.getElementById("myOutput");
+
+  input.oninput = function() {
+    output.textContent = input.value;
+  };
+</script>
+</body>
+</html>

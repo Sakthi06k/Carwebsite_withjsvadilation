@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header p{
+    color: orangered;
+    float: left;
+    position: relative;
+    left: 3%;
+    z-index: 1;
+}
+header a{
+     color: white;
+     position: relative;
+     top: 10px;
+     left: 150px;
+     z-index: 1;
+     padding:5px;
+     text-decoration: none;
+}
+header button{
+    background-color: orangered;
+    border-radius:5px;
+    position: relative;
+    top: 15px;
+    left: 750px;
+    z-index: 1;
+    padding: 7px;
+    font-size: small;
+    color: white;
+}
+.container1 img{
+    position: relative;
+    top: -80px;
+}
+.container1{
+    color: white;
+}
+.arrow{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.container2{
+    color: white;
+    margin-top: 6%;
+    position: relative;
+    bottom: 180px;
+}
+#why{
+    font-size: 11px;
+    position: relative;
+    left: 3%;
+}
+#tuning{
+    font-size: small;
+    font-weight: lighter;
+    position: relative;
+    left: 34px;
+    bottom: 32px;
+}
+.container2 #img{
+    float: right;
+    position: relative;
+    bottom: 280px;
+}
+#a,#b{
+    font-weight: lighter;
+    font-size: 10px;
+}
+.l1 {
+    height: 5px;
+    width: 25px;
+    background-color: orangered;
+    border-radius: 4px;
+}
+.l2{
+    height: 5px;
+    width: 25px;
+    background-color: orangered;
+    border-radius: 4px;
+}
+.container3{
+    color: white;
+}
+#footer {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  .social-links {
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.2s;
+  }
+  
+  .social-links a:hover {
+    color: #1da1f2;
+  }
+  #foot{
+    color: orangered;
+  }
+#footer a{
+    color: white;
+  }
+  .container1 p{
+    position: relative;
+    bottom: 200px;
+    left: 7%;
+  }
+  #sp0{
+    font-size: 10px;
+  }
+  .container1 #sp{
+    letter-spacing: 2px;
+  }
+  .container1{
+    width: 500px;
+  }.container2 .c2{
+    width: 1000px;
+  }
+  .c2 p{
+    position: relative;
+    left: 20%;
+  }#what{
+    font-size:30px;
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+    left: 3%;
+    bottom: 17px;
+}
+img#fuel {
+    position: relative;
+    left: 19%;
+}
+img#power {
+    position: relative;
+    left: 6%;
+}
+.two #a {
+    position: relative;
+    left: 5%;
+    font-size: 12px;
+}
+.two #b {
+    position: relative;
+    left: 263px;
+    font-size: 12px;
+    top: -53px;
+}
+img#c3 {
+    position: relative;
+    bottom: 521px;
+}
+.adv{
+    width: 421px;
+    position: relative;
+    bottom: 1000px;
+    left: 55%;
+}
+#z{
+    position: relative;
+    bottom: 17px;
+}#y{
+    position: relative;
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: 3px;
+    bottom: 29px;
+}#x {
+    position: relative;
+    bottom: 39px;
+}
+#w1 {
+    position: relative;
+    bottom: 35px;
+    font-weight: bold;
+    font-size: xx-large;
+}#w2 {
+    position: relative;
+    bottom: 57px;
+}#w3 {
+    position: relative;
+    font-weight: bold;
+    font-size: xx-large;
+    bottom: 141px;
+    left: 35%;
+}
+#w4 {
+    position: relative;
+    bottom: 163px;
+    left: 36%;
+}#v1 {
+    position: relative;
+    bottom: 151px;
+}#v2 {
+    position: relative;
+    left: 35%;
+    bottom: 203px;
+}
+#foot {
+    color: orangered;
+    position: relative;
+    bottom: 1136px;
+    right: 43%;
+}
+.u {
+    position: relative;
+    bottom: 1171px;
+    text-decoration: none;
+    padding: 1%;
+    right: 20%;
+}
+#copy {
+    position: relative;
+    bottom: 1189px;
+    left: 11%;
+    width: 97%;
+    display: flex;
+    justify-content: end;
+    font-size: small;
+}
+.social-links {
+    position: relative;
+    bottom: 1238px;
+    left: 40%;
+    width: 813px;
+    width: 813px;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+#footer {
+    width: 1020px;
+}.cpy p{
+    margin: 0;
+    width: 110%;
+}.u {
+    position: relative;
+    left: 4%;
+    padding: 2%;
+}#v1,#v2{
+    font-size:small;
+}#v1{
+    bottom: 159px;
+}.adv{
+    margin-top: 4%;
+}
+
+  
+  .bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image//b2ggg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  } 
+  
+   .road {
+    width: 500%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(./image/road.png);
+    background-repeat: repeat-x;
+    animation: road 5s linear 0s infinite;
+  }
+  
+  .city {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 200px;
+    background-image: url(./image/Inkedb2ggg_LI.jpg);
+    background-size:280px ;
+    background-repeat: repeat-x;
+    animation: city 10s linear 0s infinite;
+    width: 250%;
+    overflow: hidden;
+    background-repeat: repeat-x;
+    top: 70px;
+  }
+  
+  .car {
+    width: 400px;
+    position: absolute;
+    left: 49.5%;
+    bottom: 108px;
+    transform: translateX(-50%);
+  }
+  
+  .car-img {
+    width: 100%;
+    animation: car 1s linear 0s infinite;
+  }
+  
+  .wheel {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 178px;
+  }
+  
+  .wheel img {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    animation: wheel 1s linear 0s infinite;
+  }
+  
+  .wheel .front-wheel {
+    left: 70px;
+  }
+  
+  .wheel .back-wheel {
+    right: 90px;
+  }
+  
+  @keyframes road {
+    0% {
+      transform: translateX(0);
+    }
+    
+    100% {
+      transform: translateX(-3400px);
+    }
+  }
+  
+  @keyframes city {
+    0% {
+      transform: translateX(0);
+    }
+    
+    100% {
+      transform: translateX(-1400px);
+    }
+  }
+  
+  @keyframes car {
+    0% {
+      transform: translateX(-1px);
+    }
+  
+    50% {
+      transform: translateX(1px);
+    }
+    
+    100% {
+      transform: translateX(-1px);
+    }
+  }
+  
+  @keyframes wheel {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    50% {
+      transform: rotate(360deg);
+    }
+    
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  img.car-img {
+    position: relative;
+    top: 58px;
+    right: 17px;
+    top: 80px;
+}
+/* body{
+  width: 100vh;
+  overflow: hidden;
+  height: 100vh;
+} */
+
+header a:hover{
+  border-bottom: 3px solid #e1460f;
+}
+.wheel .back-wheel {
+  right: 86px;
+  top: -58px;
+}
+.wheel .front-wheel {
+  left: 70px;
+  top: -59px;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
